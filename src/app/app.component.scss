@@ -1,0 +1,28 @@
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload{
+    width: 20%;
+}
+
+footer{
+    margin: 0 auto;
+    width: fit-content;
+    color: var(--color-grey);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.app-container{
+    height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

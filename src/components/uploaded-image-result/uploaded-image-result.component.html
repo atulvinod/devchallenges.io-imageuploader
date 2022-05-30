@@ -1,0 +1,12 @@
+<div class="container">
+  <h3 class="heading">Uploaded Successfully!</h3>
+  <div class="image-container mt-30">
+    <img src="{{ imageUrl }}" alt="" />
+  </div>
+  <div class="mt-30 url-container">
+    <span class="font-url">
+      {{ imageUrl }}
+    </span>
+    <button class="btn-primary" (click)="copyToClipboard()">Copy Url</button>
+  </div>
+</div>

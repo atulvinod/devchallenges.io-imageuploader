@@ -1,0 +1,16 @@
+<div class="main-container">
+  <app-select-image
+    *ngIf="currentStep == 0"
+    (imageSelected)="imageSelected($event)"
+  ></app-select-image>
+
+  <upload-image
+    *ngIf="currentStep == 1"
+    [fileToUpload]="fileToUpload"
+    (uploadedImageUrl)="imageUploaded($event)"
+  ></upload-image>
+  <uploaded-image-result
+    *ngIf="currentStep == 2"
+    [imageUrl]="uploadedImageUrl"
+  ></uploaded-image-result>
+</div>

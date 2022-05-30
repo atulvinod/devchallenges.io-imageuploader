@@ -1,0 +1,35 @@
+.subtitle-grey {
+  font-size: 12px;
+  color: var(--color-grey-2);
+}
+
+.subtitle-black {
+  font-size: 12px;
+  color: black;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+}
+
+.font-url {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.035em;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  white-space: nowrap;
+}

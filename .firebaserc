@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "upload-image-7c507": {
+      "hosting": {
+        "image-uploader-app": [
+          "upload-image-7c507"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "upload-image-7c507"
+  }
+}

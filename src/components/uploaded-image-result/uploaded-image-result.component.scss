@@ -1,0 +1,24 @@
+@import "../../styles/index.scss";
+
+.image-container {
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  img {
+    width: 100%;
+  }
+}
+
+.url-container {
+  background-color: #f6f8fb;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1px;
+  span {
+    margin-left: 14px;
+    margin-right: 17px;
+  }
+}

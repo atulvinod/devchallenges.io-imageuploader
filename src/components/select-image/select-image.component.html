@@ -1,0 +1,20 @@
+<div class="container">
+  <h3 class="heading">Upload your image</h3>
+  <span class="subtitle-black mt-15">File should be jpeg, png</span>
+
+  <div class="drop-image-container mt-30" appImageDrop (fileDropped)="uploadFile($event)">
+    <img
+      src="../../assets/image.svg"
+      alt=""
+      srcset=""
+      class="upload-image-svg"
+    />
+    <span class="subtitle-grey"> Drag & drop your image here </span>
+  </div>
+  <span class="my-18 subtitle-grey">Or</span>
+  
+  <label class="file-input btn-primary">
+    <input type="file" accept=".png,.jpeg" (change)="uploadFile($event)">
+    Choose file
+  </label>
+</div>

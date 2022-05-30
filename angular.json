@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "image-uploader-app:build:production",
+            "firebaseProject": "upload-image-7c507",
+            "firebaseHostingSite": "upload-image-7c507"
+          }
         }
       }
     }
